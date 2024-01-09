@@ -64,7 +64,7 @@ def user_for_genre(genero: str):
     return result_dicc1
 
 @app.get("/worst_developer_year/{anio}")
-def worst_developer_year(año: int):
+def worst_developer_year(anio: int):
     # Filtra el DataFrame 'steam' para obtener solo las filas correspondientes al año especificado.
     df_filtro1 = steam[steam["year_posted"] == año].copy()
 
@@ -104,7 +104,7 @@ def SentimentAnalysis(desarrolladora: str):
 
 
 @app.get("/User_Recommend/{anio}")
-def User_Recommend(año: int):
+def User_Recommend(anio: int):
     # Filtra el DataFrame 'steam' para obtener solo las filas correspondientes al año especificado.
     df_filtro1 = steam[steam["year_posted"] == año].copy()
 
