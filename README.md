@@ -1,7 +1,7 @@
-# Deploy_PI_MLOPs-  
+#<h1 align=center>Deploy_PI_MLOPs-  
 adjunto el link para el user_reviews.csv https://drive.google.com/file/d/1vsR2aGH_wUlfYgRWtjPBOD6jZiE2QyiS/view?usp=drive_link
 
-Machine Learning Operations (MLOps)
+### <h1 align=center>Machine Learning Operations (MLOps)
 
 Este proyecto tiene como objetivo desarrollar un sistema de recomendación de videojuegos para usuarios de Steam. La metodología adoptada sigue las prácticas de Extracción, Transformación y Carga (ETL) para procesar y unificar múltiples conjuntos de datos, y culmina en la implementación de una API robusta utilizando FastAPI. A continuación, se detallan las responsabilidades y acciones específicas de cada fase del proyecto:
 
