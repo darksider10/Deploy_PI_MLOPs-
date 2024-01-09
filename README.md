@@ -27,15 +27,21 @@ ETL para Items (ETL_items.ipynb)
 ETL para Reseñas (ETL_reviews.ipynb)
 
 -Expansión de Listas: Se utilizan los métodos 'explode' y 'pd.Series' para manejar columnas con listas.
+
 -Análisis de Sentimientos: Se realiza un análisis de sentimientos utilizando la biblioteca TextBlob.
+
 -Filtrado de Registros Válidos: Se eliminan registros nulos y aquellos sin comentarios, valoraciones y recomendaciones.
+
 -Selección de Columnas y Almacenamiento: Se seleccionan las columnas necesarias y se almacenan los resultados en'user_reviews.csv'.
 
 ETL para Juegos (ETL_games.ipynb)
 
 -Conversión de Fecha: La columna 'release_date' se convierte a formato datetime y se extrae el año.
+
 -Manejo de Precios: La columna 'price' se ajusta para permitir conversiones numéricas.
+
 -Eliminación de Filas con Valores Nulos: Se eliminan filas con valores nulos en columnas clave.
+
 -Selección de Columnas y Almacenamiento: Se seleccionan las columnas necesarias y se almacenan los resultados en 'games.csv'.
 
     
@@ -54,9 +60,13 @@ Documento: main.py
 El desarrollo de la aplicación FastAPI se encuentra en 'main.py'. La API proporciona varios endpoints para consultas y análisis de datos de juegos de Steam. Algunas funciones destacadas son:
 
 -/playtime_genre/{genero}: Devuelve el año con más horas jugadas para un género específico.
+
 -/user_for_genre/{genero}: Proporciona el usuario con más horas jugadas y la distribución de horas jugadas por año para un género dado.
+
 -/worst_developer_year/{año}: Devuelve los tres desarrolladores con peor calificación en un año determinado.
+
 -/sentiment_analysis/{desarrolladora}: Realiza un análisis de sentimientos para las reseñas de una desarrolladora específica.
+
 -/user_recommend/{año}: Devuelve una lista de los tres juegos con más recomendaciones y análisis de sentimientos en un año específico.
 
 Nota: Para consultas efectivas, respetar mayúsculas y minúsculas.
