@@ -64,3 +64,6 @@ El desarrollo de la aplicación FastAPI se encuentra en 'main.py'. La API propor
 -/user_recommend/{año}: Devuelve una lista de los tres juegos con más recomendaciones y análisis de sentimientos en un año específico.
 
 ### <h3 align=center>Nota: Para consultas efectivas, respetar mayúsculas y minúsculas.
+
+adjunto el link al deployment https://deploy-pi-mlops.onrender.com/docs
+
