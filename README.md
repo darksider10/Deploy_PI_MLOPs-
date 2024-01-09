@@ -1,5 +1,4 @@
 #<h1 align=center>Deploy_PI_MLOPs-  
-adjunto el link para el user_reviews.csv https://drive.google.com/file/d/1vsR2aGH_wUlfYgRWtjPBOD6jZiE2QyiS/view?usp=drive_link
 
 ### <h1 align=center>Machine Learning Operations (MLOps)
 
