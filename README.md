@@ -1,15 +1,19 @@
 # Deploy_PI_MLOPs-
-https://deploy-pi-mlops.onrender.com/docs
-https://drive.google.com/file/d/1vsR2aGH_wUlfYgRWtjPBOD6jZiE2QyiS/view?usp=drive_link
-Machine Learning Operations (MLOps)
+
+
+#Machine Learning Operations (MLOps)
 
 Este proyecto tiene como objetivo desarrollar un sistema de recomendación de videojuegos para usuarios de Steam. La metodología adoptada sigue las prácticas de Extracción, Transformación y Carga (ETL) para procesar y unificar múltiples conjuntos de datos, y culmina en la implementación de una API robusta utilizando FastAPI. A continuación, se profundizará en cada fase del proyecto:
 Introducción
 
 La industria de los videojuegos es vasta y diversa, con miles de títulos disponibles en plataformas como Steam. Ofrecer recomendaciones personalizadas a los usuarios es crucial para mejorar la experiencia del usuario y aumentar la participación. Este proyecto aborda precisamente esa necesidad, utilizando datos de juegos de Steam para construir un sistema de recomendación efectivo.
+
+Enlace al deployment https://deploy-pi-mlops.onrender.com/docs
+
 Extracción, Transformación y Carga de Datos (ETL)
 
 El proceso de ETL es esencial para garantizar que los datos estén en un formato adecuado para el análisis y la creación de modelos. En este proyecto, hemos realizado ETL en tres conjuntos de datos clave:
+
 ETL para Items (ETL_items.ipynb)
 
     Filtrado y Selección de Columnas: Se seleccionan las columnas 'user_id', 'item_id', y 'playtime_forever'.
@@ -30,6 +34,9 @@ ETL para Juegos (ETL_games.ipynb)
     Manejo de Precios: La columna 'price' se ajusta para permitir conversiones numéricas.
     Eliminación de Filas con Valores Nulos: Se eliminan filas con valores nulos en columnas clave.
     Selección de Columnas y Almacenamiento: Se seleccionan las columnas necesarias y se almacenan los resultados en 'games.csv'.
+
+    
+adjunto el link para el user_reviews.csv https://drive.google.com/file/d/1vsR2aGH_wUlfYgRWtjPBOD6jZiE2QyiS/view?usp=drive_link
 
 Relación y Unión de Tablas
 Fusión de Datos (MERGE_PI.ipynb)
