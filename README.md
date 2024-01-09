@@ -4,7 +4,7 @@
 
 Este proyecto tiene como objetivo desarrollar un sistema de recomendación de videojuegos para usuarios de Steam. La metodología adoptada sigue las prácticas de Extracción, Transformación y Carga (ETL) para procesar y unificar múltiples conjuntos de datos, y culmina en la implementación de una API robusta utilizando FastAPI. A continuación, se detallan las responsabilidades y acciones específicas de cada fase del proyecto:
 
-Introducción
+### <h2 align=center>Introducción
 
 La industria de los videojuegos es vasta y diversa, con miles de títulos disponibles en plataformas como Steam. Este proyecto se centra en abordar la necesidad de ofrecer recomendaciones personalizadas a los usuarios, mejorando así su experiencia y aumentando la participación.
 Extracción, Transformación y Carga de Datos (ETL)
