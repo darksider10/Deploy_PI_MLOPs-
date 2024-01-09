@@ -1,7 +1,7 @@
 import pandas as pd
 from fastapi import FastAPI
 app = FastAPI()
-steam = pd.read_csv("data_steam.csv")
+steam = pd.read_csv("steam.csv")
 @app.get("/playtime_genre/{genero}")
 def PlayTimeGenre(genero: str):
     # Filtra el DataFrame 'steam' para obtener solo las filas con el género especificado.
