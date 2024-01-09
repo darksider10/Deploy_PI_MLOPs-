@@ -66,7 +66,7 @@ def user_for_genre(genero: str):
 @app.get("/worst_developer_year/{anio}")
 def worst_developer_year(anio: int):
     # Filtra el DataFrame 'steam' para obtener solo las filas correspondientes al año especificado.
-    df_filtro1 = steam[steam["year_posted"] == año].copy()
+    df_filtro1 = steam[steam["year_posted"] == anio].copy()
 
     # Calcula la nueva columna "reviews.recommend" sumando las columnas "recommend" y "sentiment_analysis".
     df_filtro1["reviews.recommend"] = df_filtro1["recommend"] + df_filtro1["sentiment_analysis"]
@@ -106,7 +106,7 @@ def SentimentAnalysis(desarrolladora: str):
 @app.get("/User_Recommend/{anio}")
 def User_Recommend(anio: int):
     # Filtra el DataFrame 'steam' para obtener solo las filas correspondientes al año especificado.
-    df_filtro1 = steam[steam["year_posted"] == año].copy()
+    df_filtro1 = steam[steam["year_posted"] == anio].copy()
 
     # Calcula la nueva columna "reviews.recommend" sumando las columnas "recommend" y "sentiment_analysis".
     df_filtro1["reviews.recommend"] = df_filtro1["recommend"] + df_filtro1["sentiment_analysis"]
