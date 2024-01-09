@@ -8,7 +8,7 @@ Este proyecto tiene como objetivo desarrollar un sistema de recomendación de vi
 
 La industria de los videojuegos es vasta y diversa, con miles de títulos disponibles en plataformas como Steam. Este proyecto se centra en abordar la necesidad de ofrecer recomendaciones personalizadas a los usuarios, mejorando así su experiencia y aumentando la participación.
 Extracción, Transformación y Carga de Datos (ETL)
-### <h3 align=center>ETL para Items (ETL_items.ipynb)
+### <h3 align=left>ETL para Items (ETL_items.ipynb)
 
 -Filtrado y Selección de Columnas: Se seleccionan las columnas 'user_id', 'item_id', y 'playtime_forever'.
 
@@ -18,7 +18,7 @@ Extracción, Transformación y Carga de Datos (ETL)
 
 -Almacenamiento de Resultados: Guardamos el resultado en 'user_items.csv'.
 
-### <h3 align=center>ETL para Reseñas (ETL_reviews.ipynb)
+### <h3 align=left>ETL para Reseñas (ETL_reviews.ipynb)
 
 -Expansión de Listas: Utilizamos los métodos 'explode' y 'pd.Series' para manejar columnas con listas.
 
@@ -30,7 +30,7 @@ Extracción, Transformación y Carga de Datos (ETL)
 
 adjunto el link para el user_reviews.csv https://drive.google.com/file/d/1vsR2aGH_wUlfYgRWtjPBOD6jZiE2QyiS/view?usp=drive_link
 
-### <h3 align=center>ETL para Juegos (ETL_games.ipynb)
+### <h3 align=left>ETL para Juegos (ETL_games.ipynb)
 
 -Conversión de Fecha: Convertimos la columna 'release_date' a formato datetime y extraemos el año.
 
@@ -41,7 +41,7 @@ adjunto el link para el user_reviews.csv https://drive.google.com/file/d/1vsR2aG
 -Selección de Columnas y Almacenamiento: Seleccionamos las columnas necesarias y almacenamos los resultados en 'games.csv'.
 
 ### <h2 align=center>Relación y Unión de Tablas
-### <h3 align=center>Fusión de Datos (MERGE_PI.ipynb)
+### <h3 align=left>Fusión de Datos (MERGE_PI.ipynb)
 
 El proceso de fusión de datos implica la combinación de los DataFrames 'items', 'reviews', y 'games' para crear un conjunto de datos completo. Creamos un identificador único ('id') y seleccionamos las columnas específicas necesarias. El resultado final se almacena en 'data_steam.csv'.
 
@@ -49,7 +49,7 @@ Este enfoque estructurado garantiza que los datos estén listos para el análisi
 
 
 ### <h2 align=center>Funciones y API
-### <h3 align=center>Documento: main.py
+### <h3 align=left>Documento: main.py
 
 El desarrollo de la aplicación FastAPI se encuentra en 'main.py'. La API proporciona varios endpoints para consultas y análisis de datos de juegos de Steam. Algunas funciones destacadas son:
 
