@@ -17,8 +17,11 @@ El proceso de ETL es esencial para garantizar que los datos estén en un formato
 ETL para Items (ETL_items.ipynb)
 
 -Filtrado y Selección de Columnas: Se seleccionan las columnas 'user_id', 'item_id', y 'playtime_forever'.
+
 -Creación de Identificador Único (id): Se concatena 'user_id' y 'item_id' para crear una columna identificadora única.
+
 -Tipo de Dato: La columna 'item_id' se convierte a tipo cadena.
+
 -Almacenamiento de Resultados: El resultado se guarda en 'user_items.csv'.
 
 ETL para Reseñas (ETL_reviews.ipynb)
