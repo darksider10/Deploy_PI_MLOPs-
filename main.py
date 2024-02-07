@@ -130,7 +130,6 @@ def Sentiment_Analysis(desarrolladora: str):
     result_dicc1 = {
         desarrolladora: [
             "Negativo = " + str(df_group1[df_group1["sentiment_analysis"] == 0]["count"].values[0]),
-            "Neutral = " + str(df_group1[df_group1["sentiment_analysis"] == 1]["count"].values[0]),
             "Positivo = " + str(df_group1[df_group1["sentiment_analysis"] == 2]["count"].values[0])
         ]
     }
