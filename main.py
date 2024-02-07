@@ -109,7 +109,7 @@ def Best_Developer_Year(año: int):
     # Ordena el DataFrame por la suma de recomendaciones y análisis de sentimientos de forma ascendente.
     df_sort1 = df_group1.sort_values("reviews.recommend", ascending=False)
 
-    # Crea una lista de diccionarios con los tres desarrolladores con peor calificación.
+    # Crea una lista de diccionarios con los tres desarrolladores con mejor calificación.
     result_list1 = [{"Puesto " + str(i + 1): df_sort1.iloc[i, 0]} for i in range(3)]
 
     return result_list1
